@@ -1,0 +1,433 @@
+$color_blue: #1EACC7
+$color_pink: #FF5656
+
+@mixin btn_hover()
+    &:hover
+        background: none
+        background-color: $color_blue
+
+    
+*
+    font-family: 'Roboto', sans-serif
+header
+    position: relative
+    height: 50px
+    background: #212121
+nav .menu
+    display: flex
+    justify-content: space-between
+    padding: 13.3px 58px
+    margin: 0
+.menu
+    .menu_item
+        border-right: 2px dotted black
+        padding-right: 30px
+    .menu_link
+        font-style: normal
+        font-weight: 300
+        font-size: 15px
+        align-items: center
+        color: #FFFFFF
+        list-style: none
+        text-decoration: none
+.subheader
+    width: 100%
+    position: absolute
+    background-color: rgba(0, 0, 0, 0.6)
+    height: 87px
+    img
+        margin-top: 17px
+        width: 285px
+        height: 32px
+    .logo_text
+        font-style: normal
+        font-weight: 200
+        font-size: 13px
+        display: fle    
+        align-items: center
+        color: #FFFFFF
+    .subheader_call
+        font-style: normal
+        font-weight: 300
+        font-size: 12px
+        align-items: center
+        text-align: right
+        color: #FFFFFF
+        margin-top: 19px
+    .subheader_phone
+        font-style: normal
+        font-weight: normal
+        font-size: 22px
+        align-items: center
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+    .subheader_btn
+        width: 172px
+        height: 46px
+        background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+        box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
+        border-radius: 4px
+        border: 0
+        margin-top: 20px
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        align-items: center
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+        display: block
+        @include btn_hover()
+        
+       
+        
+.promo
+    background: url("../img/uber_bg.png") center (center / cover) no-repeat
+    min-height: 799px
+    padding-top: 142px
+    margin: 0
+    .promo_header
+        font-style: normal
+        font-weight: 900
+        font-size: 60px
+        align-items: center
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+        margin: 0
+    .promo_subheader
+        font-style: normal
+        font-weight: 700
+        font-size: 36px
+        align-items: center
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+        margin: 0
+        margin-top: -15px
+    .promo_text
+        font-weight: 300
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 24px
+        align-items: center
+        text-align: center
+        color: #FFFFFF
+        margin-top: 28px
+    .promo_btn
+        width: 259px
+        height: 63px
+        background: linear-gradient(0deg, $color_blue 0%, #4CE2FF 100%)
+        box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12)
+        border-radius: 4px
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 63px
+        align-items: center
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+        border: 0
+        display: block
+        margin: 0 auto
+        margin-top: 115px
+        @include btn_hover()
+            
+.second
+    min-height: 848px
+    .second_box
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        width: 485px
+        height: 160px
+        margin-bottom: 25px
+        &_one
+            margin-left: 30px
+    
+    .second_box .box_icon
+        width: 116px
+        height: 116px
+        background: $color_blue
+        border-radius: 100%
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-top: 10px
+    .second_text
+        font-style: normal
+        font-weight: 300
+        font-size: 17px
+        line-height: 21px
+        font-weight: 300
+        align-items: center
+        color: #202020
+        margin-left: 25px
+        width: 372px
+        span
+            font-style: normal
+            font-weight: 400
+            font-size: 17px
+            line-height: 21px
+            align-items: center
+            color: $color_blue
+    .lable
+        width: 113px
+        height: 24px
+        background-color: black
+        font-style: normal
+        font-weight: normal
+        font-size: 11px
+        line-height: 23px
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+        display: block
+        margin: 0 auto
+        margin-top: 19px
+    .title
+        font-style: normal
+        font-weight: bold
+        font-size: 38px
+        line-height: 48px
+        display: flex
+        justify-content: center      
+        text-transform: uppercase
+        color: #222222
+        margin-top: 33px
+        margin-bottom: 20px
+    .second_block
+        width: 1064px
+        height: 767px
+        margin-left: 33px
+        .row
+            margin: 0
+
+.mobile
+    min-height: 864px
+    padding: 48px 0 80px 0
+    background: url("../img/mobile_bg.png") center (center / cover) no-repeat
+    .lable
+        width: 113px
+        height: 24px
+        background-color: black
+        font-style: normal
+        font-weight: normal
+        font-size: 11px
+        line-height: 23px
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+        display: block
+        margin: 0 auto
+    .title
+        font-style: normal
+        font-weight: bold
+        font-size: 38px
+        line-height: 48px
+        display: flex
+        justify-content: center      
+        text-transform: uppercase
+        color: #222222
+        margin-top: 33px
+    .subtitle
+        font-style: normal
+        font-weight: normal
+        font-size: 17px
+        display: flex
+        align-items: center
+        color: #222222
+        margin-bottom: 30px
+        margin-left: 157px
+    .mobile_item
+        width: 320px
+        height: 280px
+        margin: 0 auto
+        padding-top: 85px
+        margin-bottom: 19px
+        position: relative
+        &_1
+            background: url("../img/order.png") center (center / cover) no-repeat
+        &_2
+            background: url("../img/arrive.png") center (center / cover) no-repeat
+        &_3
+            background: url("../img/cost.png") center (center / cover) no-repeat
+        &_4
+            background: url("../img/pay.png") center (center / cover) no-repeat
+        &_5
+            background: url("../img/connectoin.png") center (center / cover) no-repeat
+        &_6
+            background: url("../img/separ.png") center (center / cover) no-repeat
+        &_subtitle
+            font-style: normal
+            font-weight: normal
+            font-size: 24px
+            line-height: 31px
+            align-items: center
+            text-align: center
+            text-transform: uppercase
+            color: #FFFFFF
+        &_plus
+            width: 29px
+            height: 29px
+            background: #000000
+            border-radius: 100%
+            display: flex
+            justify-content: center
+            align-items: center
+            position: absolute
+            left: 145px
+            bottom: 34px
+            cursor: pointer
+            &::before
+                content: ''
+                display: block
+                width: 14px
+                height: 2px
+                background-color: $color_blue
+                transform: 0.3s all
+            &::after
+                content: ''
+                display: block
+                width: 2px
+                height: 14px
+                background-color: $color_blue
+                position: absolute
+                transform: 0.3s all
+                left: 50%
+                transform: translateX(-50%)
+            &:hover
+                &::before, &::after
+                    background-color: $color_pink
+                    
+.car
+    background: url("../img/mobile_bg.png") center (center / cover) no-repeat
+    min-height: 896px
+    position: relative
+    .lable
+        width: 113px
+        height: 24px
+        background-color: #FFFFFF
+        font-style: normal
+        font-weight: normal
+        font-size: 11px
+        line-height: 23px
+        text-align: center
+        text-transform: uppercase
+        color: #070716
+        display: block
+        margin-left: 514px
+        margin-top: 57px
+        position: absolute
+        z-index: 2
+    .title
+        font-style: normal
+        font-weight: bold
+        font-size: 38px
+        line-height: 48px
+        display: flex
+        justify-content: center      
+        text-transform: uppercase
+        color: #FFFFFF
+        margin-left: 299px
+        top: 107px
+        position: absolute
+        z-index: 2
+    .subtitle
+        font-style: normal
+        font-weight: normal
+        font-size: 17px
+        display: flex
+        align-items: center
+        color: #FFFFFF
+        position: absolute
+        z-index: 2
+        margin-left: 284px
+        top: 157px
+    &_dark
+        position: absolute
+        z-index: 1
+        top: 0
+        left: 0
+    &_car
+        position: absolute
+        z-index: 2
+        top: 232px
+        margin-left: 191px
+    .text
+        font-style: normal
+        font-weight: 300
+        font-size: 17px
+        line-height: 24px
+        display: flex
+        align-items: center
+        text-align: center
+        color: #222222
+        position: absolute
+        bottom: 137px
+        margin-left: 406px
+.require
+    padding: 66px 0 87px 0
+    .lable
+        width: 113px
+        height: 24px
+        background-color: black
+        font-style: normal
+        font-weight: normal
+        font-size: 11px
+        line-height: 23px
+        text-align: center
+        text-transform: uppercase
+        color: #FFFFFF
+        display: block
+        margin: 0 auto
+    .title
+        font-style: normal
+        font-weight: bold
+        font-size: 38px
+        line-height: 48px
+        display: flex
+        justify-content: center      
+        text-transform: uppercase
+        color: #222222
+        margin-top: 27px
+    // &_block
+    //     margin: 37px 0
+    //     margin-left: 40px
+    //     &_nmb
+    //         margin-bottom: 0
+    // &_title
+    //     font-style: normal
+    //     font-weight: 400
+    //     font-size: 22px
+    //     line-height: 24px;       
+    //     align-items: center
+    //     color: #1CA8C3
+    // &_list
+    //     list-style-type: none
+    //     margin-top: 20px
+    //     padding-left: 52px
+    //     li
+    //         font-style: normal;
+    //         font-weight: 300;
+    //         font-size: 17px;
+    //         line-height: 30px;
+    //         display: flex;
+    //         align-items: center;
+    //         color: #574747;
+    //         position: relative
+    // &_descr
+    //     font-style: normal
+    //     font-weight: 300
+    //     font-size: 17px
+    //     line-height: 24px
+    //     display: flex
+    //     align-items: center
+    //     color: #1CA8C3
+    
+   

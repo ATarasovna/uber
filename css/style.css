@@ -1,0 +1,243 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px;
+    background: #212121;
+}
+
+nav .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13.3px 58px;
+    margin: 0; 
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 30px;
+}
+
+.menu .menu_link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    align-items: center;
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+}
+
+.subheader {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    height: 87px;
+}
+
+.subheader img {
+    margin-top: 17px;
+    width: 285px;
+    height: 32px;
+}
+
+.subheader .logo_text {
+    
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_call {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 19px;
+}
+
+.subheader .subheader_phone {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: 0;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    display: block;
+}
+
+.promo {
+    background: url("/src/img/uber_bg.png") center center/cover no-repeat;
+    min-height: 799px;
+    padding-top: 142px;
+    margin: 0;
+}
+
+.promo .promo_header {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: -15px;
+}
+
+.promo .promo_text {
+    font-weight: 300;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 28px;
+}
+
+.promo .promo_btn {
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 63px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+}
+
+.second {
+    min-height: 848px;
+}
+
+.second .second_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 485px;
+    height: 170px;
+    
+}
+
+.second .row {
+    margin-bottom: 30px;
+}
+
+.second .second_box .box_icon {
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.second .second_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 300;
+    align-items: center;
+    color: #202020;
+    margin-left: 25px;
+    width: 372px;
+}
+
+.second .second_text span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    color: #1EACC7;
+}
+
+.second .lable {
+    width: 113px;
+    height: 24px;
+    background-color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+
+.second .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 33px;
+    margin-bottom: 20px;
+}
+
+.second .second_block {
+    width: 1064px;
+    height: 767px;
+}
+
+
+
